@@ -15,22 +15,22 @@ print('\033[1;36m=-=\033[m' * 20)
 ep = int(input('Escolha sua jogada: '))
 
 if ep == 1:
-    print('Voce escolheu PEDRA!')
+    print('Voce escolheu \033[4;32mPEDRA!\033[m')
 elif ep == 2:
-    print('Voce escolheu PAPEL!')
+    print('Voce escolheu \033[4;32mPAPEL!\033[m')
 elif ep == 3:
-    print('Voce escolheu TESOURA!')
+    print('Voce escolheu \033[4;32mTESOURA!\033[m')
 
 time.sleep(1)
 
 ec = random.randint(1, 3)
 
 if ec == 1:
-    print('O computador escolheu PEDRA!')
+    print('O computador escolheu \033[4;32mPEDRA!\033[m')
 elif ec == 2:
-    print('O computador escolheu PAPEL!')
+    print('O computador escolheu \033[4;32mPAPEL!\033[m')
 elif ec == 3:
-    print('O computador escolheu TESOURA!')
+    print('O computador escolheu \033[4;32mTESOURA!\033[m')
 
 time.sleep(1)
 
